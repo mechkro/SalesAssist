@@ -1,0 +1,11 @@
+DEVELOPER NOTES:
+
+
+
+
+Implementing BANT - way to quantify a contact
+https://www.copper.com/blog/bant-framework
+
+
+IDEAS to implement:
+- Quarterly feedback sheet
