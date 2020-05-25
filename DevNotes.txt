@@ -1,6 +1,14 @@
 DEVELOPER NOTES:
 
 
+WHAT I DO:
+
+  - Read Emails and respond
+  - Perform necc. to-do's, legwork, phonecalls, internal duties
+
+
+
+
 
 
 Implementing BANT - way to quantify a contact
@@ -9,3 +17,7 @@ https://www.copper.com/blog/bant-framework
 
 IDEAS to implement:
 - Quarterly feedback sheet
+
+
+
+
