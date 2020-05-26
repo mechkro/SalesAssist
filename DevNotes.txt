@@ -1,11 +1,19 @@
 DEVELOPER NOTES:
 
 
-WHAT I DO:
+OUTLINE WHAT I DO:
 
   - Read Emails and respond
   - Perform necc. to-do's, legwork, phonecalls, internal duties
 
+
+
+#SECTIONS --------
+  
+    - REFERENCE:
+          - Different throttling methods
+              - https://electrical-engineering-portal.com/comparison-of-4-different-flow-control-methods-of-pumps
+          - 
 
 
 
