@@ -11,6 +11,7 @@ GOALs:
 
   - Add 5 new contacts a Month
   - Get sales diversification to 25% of all accoutns
+  - Continue to grow presence with contractors and engineering firms
   - 
 
 
