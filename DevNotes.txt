@@ -10,6 +10,15 @@ OUTLINE WHAT I DO:
 
 #SECTIONS --------
   
+    - Contacts:
+          - Listed contacts will be sorted by last date contacted so that it continually provides me look on
+            who needs to be contacted
+          - Come up with a ranking system ---- stages and influence indicators for each contact
+          - Remove two for every new contact added.
+          - 
+  
+  
+  
     - REFERENCE:
           - Different throttling methods
               - https://electrical-engineering-portal.com/comparison-of-4-different-flow-control-methods-of-pumps
