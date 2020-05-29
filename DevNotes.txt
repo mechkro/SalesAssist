@@ -5,6 +5,8 @@ OUTLINE WHAT I DO:
 
   - Read Emails and respond
   - Perform necc. to-do's, legwork, phonecalls, internal duties
+  - Leads
+  - 
 
 GOALs:
 #This should dictate the flow of the app and what metrics I keep. 
@@ -17,6 +19,25 @@ GOALs:
 
 #SECTIONS --------
   
+    - Database:
+          - 
+  
+    - Calendar:
+          - 
+          - 
+          
+    - ToDos:
+          -
+    
+    - Call Logs:
+          - 
+          
+    - Vendors:
+          -
+          
+    - Quotes/Projects:
+          - 
+  
     - Contacts:
           - Listed contacts will be sorted by last date contacted so that it continually provides me look on
             who needs to be contacted
@@ -24,8 +45,10 @@ GOALs:
           - Remove two for every new contact added.
           - 
   
-  
-  
+    - Quick Assist:
+          - Applications based product recommendor 
+          
+          
     - REFERENCE:
           - Different throttling methods
               - https://electrical-engineering-portal.com/comparison-of-4-different-flow-control-methods-of-pumps
