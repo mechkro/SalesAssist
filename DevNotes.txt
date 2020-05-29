@@ -45,6 +45,10 @@ GOALs:
           - Remove two for every new contact added.
           - 
   
+    - Leads (Web Scraper):
+          - Pre-load URL's that are searched and scraped for given terms...
+  
+  
     - Quick Assist:
           - Applications based product recommendor 
           
