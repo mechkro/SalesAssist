@@ -4,11 +4,6 @@ import collections as clc
 import random
 import time
 
-#---------------------------------------
-def returnchoice(a,b,c):
-    """
-    """
-    return random.choice(choices[a][b][c])
 
 #----------------------------------------
 def displayer(days):
@@ -17,7 +12,7 @@ def displayer(days):
     mnths = days/30.0
     if abs(int(days)) <= 7:
         sment = "WOW  SO CLOSE! ONLY {} days since Today''s date.\nWhich is {} months ago.\n\n".format(days,mnths)
-        print(sment)
+        #print(sment)
         #time.sleep(1)
         return 1
     else:
@@ -26,14 +21,12 @@ def displayer(days):
         return 0
 
 
-
-
 ents = clc.OrderedDict()
 C = cal.Calendar()
 z = C.yeardatescalendar(2020, width =12)
 
 t  = dt.date.today()
-rng = 1000
+rng = 100000
 cnt = 0
 k = range(0,7)
 
@@ -43,8 +36,7 @@ for i in range(rng):
     dy = (t - chc).days
     cnt += displayer(dy)
 
-print(cnt)
 hitperc = (cnt/rng)*100.0
-print('Hit rate was {} %'.format(hitperc))
+print('Hit rate was {} % out of {} tries'.format(hitperc, rng))
 
 
