@@ -2,30 +2,49 @@ import datetime as dt
 import calendar as cal
 import collections as clc
 import random
+import time
 
-C = cal.Calendar()
-choices = C.yeardatescalendar(2020, width =1)
-print(choices[0])
-
+#---------------------------------------
 def returnchoice(a,b,c):
+    """
+    """
     return random.choice(choices[a][b][c])
 
+#----------------------------------------
 def displayer(days):
+    """
+    """
     mnths = days/30.0
-    sment = "{} days since Today''s date.\nWhich is {} months ago.\n\n".format(days,mnths)
-    print(sment)
+    if abs(int(days)) <= 7:
+        sment = "WOW  SO CLOSE! ONLY {} days since Today''s date.\nWhich is {} months ago.\n\n".format(days,mnths)
+        print(sment)
+        #time.sleep(1)
+        return 1
+    else:
+        sment = "{} days since Today''s date.\nWhich is {} months ago.\n\n".format(days,mnths)
+        #print(sment)
+        return 0
+
+
 
 
 ents = clc.OrderedDict()
-strt = [0,1,2]
-strt2 = range(1)
-strt3 = range(1)
+C = cal.Calendar()
+z = C.yeardatescalendar(2020, width =12)
 
-for i in range(100):
-    v1 = random.choice(strt)
-    v2 =  random.choice(strt2)
-    v3  = random.choice(strt3)
-    ents[i] = returnchoice(v1, v2, v3)
-    k  = dt.date.today()
-    d = (k - ents[i]).days
-    displayer(d)
+t  = dt.date.today()
+rng = 1000
+cnt = 0
+k = range(0,7)
+
+for i in range(rng):
+    d = random.choice(k)
+    chc  = random.choice( [random.choice(x) for x in z[0][:]][d])
+    dy = (t - chc).days
+    cnt += displayer(dy)
+
+print(cnt)
+hitperc = (cnt/rng)*100.0
+print('Hit rate was {} %'.format(hitperc))
+
+
