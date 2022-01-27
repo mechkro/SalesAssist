@@ -2,7 +2,7 @@ import tkinter as tk
 from tkinter import ttk
 import tkcalendar as tkc
 import datetime as dt
-from NewRefVals import customer
+#from NewRefVals import customer
 
 
 
@@ -115,7 +115,7 @@ class Foundation(object):
             self.lbox_checklist.insert(tk.END, i)
         
         #COMBOBOX ACCOUNTS ---------------------------------------------
-        self.cbox_accounts = ttk.Combobox(self.f11, values = customer)# ['test1', 'test2', 'test3'])
+        self.cbox_accounts = ttk.Combobox(self.f11, values = ['test1', 'test2', 'test3'])
         self.cbox_accounts.grid(row = 2, column = 0, padx = 3, pady = 3, sticky = tk.EW)
         
         return
@@ -146,10 +146,7 @@ class Foundation(object):
                             cursor="hand1", year = int(today.year), month = int(today.month), day = int(today.day))
         
         self.cal.grid(row = 0, padx = 25, pady = 25., sticky = tk.NSEW)
-        self.cal.bind('<<CalendarMonthChanged>>', None)
-    
-    
-    
+        self.cal.bind('<<CalendarMonthChanged>>', None) 
     
     
     

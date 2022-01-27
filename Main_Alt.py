@@ -77,7 +77,7 @@ class CallLogWindow:
     
     def __init__(self, parent, *args, **kwargs):
         self.parent = parent 
-        self.database_init()
+        #self.database_init()
       
         
         #Menu Creation 
@@ -292,13 +292,13 @@ class CallLogWindow:
         
         #INSERTING DATA INTO THE FRAME FIELDS -----------------------------------------
                
-        with open(r'C:\Users\kinse\Anaconda3\DXPE Sales Tool\SalesTool-master\SalesTool-master\pump_applications.txt', 'r')as F:
-            lines = F.readlines()
-            for line in lines:
-                self.todo_text1.insert(tk.END, line)
+        # with open(r'C:\Users\kinse\Anaconda3\DXPE Sales Tool\SalesTool-master\SalesTool-master\pump_applications.txt', 'r')as F:
+        #     lines = F.readlines()
+        #     for line in lines:
+        #         self.todo_text1.insert(tk.END, line)
         
-        for conts in customer:
-            self.todo_text2.insert(tk.END, '{}\n'.format(conts))
+        # for conts in customer:
+        #     self.todo_text2.insert(tk.END, '{}\n'.format(conts))
         
         
         
